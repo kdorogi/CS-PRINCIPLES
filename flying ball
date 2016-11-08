@@ -1,0 +1,17 @@
+int x=0;
+int speed=5;
+void setup()
+{
+  size(400,400);
+  println("I'm starting up");
+}
+
+void draw()
+{
+  background(#A4DAFA);
+  fill(#DC74FA);
+  ellipse(x,100,100,100);
+  x = x + speed;
+  println("I'm running");
+  delay(10);
+}
